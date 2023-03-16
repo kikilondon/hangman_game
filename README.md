@@ -1,5 +1,5 @@
 # Hangman_game
-This is a digital version of the hangman game, built with React. The player has a wide range of words to guess, pulled from a digital dictionary.
+This project is a digital version of the hangman game built with React.js. The player has many words to guess, pulled from a digital dictionary API address.
 <br>
 
 ### How to Play:
