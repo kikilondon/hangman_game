@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background-repeat:no-repeat; */
+  background-size: cover;
+  
+
+}
+/* import font from google font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* styling app */
+.App {
+  /* background-color:#EFF5F5; */
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  /* background-image: url(./images/background2.png) ; */
+  background-image:linear-gradient(to bottom , #D3CFDA 0%, #f3f0f078 0%, #ecebebbb 0%), url(./images/background2.png) ;
+  padding-bottom: 50px;
+}
+/* styling main */
+.main-container{
+  max-width: 60%;
+  margin: auto;
+
 }
 
-.App-link {
-  color: #61dafb;
+.header-container{
+  margin: auto;
+  max-width: 80%;
+
+}
+/* styling header */
+
+.header-container{
+margin-bottom: 30px;
+
+}
+.title{
+  padding-top: 30px;
+  margin:0;
+  font-size: 4rem;
+  color: #03001C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.par-container{
+ margin: auto;
 }
+
+.welcome-par{
+ font-size: 1.3rem;
+ color: #03001C;
+ line-height: 30px;
+
+}
+
+/* styling rules */
+.btn-rules{
+  line-height: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  border:none;
+  background-color:#1d1a33;
+  color:  #D3CFDA;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom:20px;
+  box-shadow: 8px 7px 2px #8e8ba780;
+  cursor:pointer;
+}
+
+
+.btn-rules:hover{
+ background-color:#504e5d;
+}
+
+.rules-container > h4{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  color: #03001C;
+
+}
+.list{
+ list-style: none;
+ text-align: center;
+ border:solid 1px #03001C;
+ border-radius: 5px;
+ padding: 10px 5px;
+ color: #03001C;
+ font-size: 18px;
+}
+/* styling keyboard */
+.keyboard-btn{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #03001C;
+  border: solid 1px #03001C;
+  border-radius: 5px;
+  box-shadow: 6px 3px 1px #8985a680;
+}
+.keyboard-btn:disabled{
+border: 1px solid #999999;
+background-color: #cccccc;
+color: #666666;
+
+
+}
+
+/* 
+styling reset button */
+.reset-btn{
+  line-height: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border:none;
+  background-color:#1d1a33;
+  color:  #D3CFDA;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom:20px;
+  box-shadow: 8px 7px 2px #8e8ba780;
+  /* transition-duration: 0.4s; */
+  cursor:pointer;
+  }
+  .reset-btn:hover{
+  background-color:#504e5d;
+  }
+
+  /* styling images */
+.images-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-hangman{
+  border: #03001C solid 2px;
+  border-radius: 5px;
+}
+
+.instructions >p{
+  font-size:18px ;
+}
+
+
+.wonlose{
+  
+  font-weight: 600;
+
+}
+
+
+
+
