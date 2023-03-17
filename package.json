@@ -1,8 +1,7 @@
 {
   "name": "hangman_game",
   "version": "0.1.0",
-  "homepage": "https://kikilondon.github.io/hangman_game",
-  "private": true,
+  "homepage": "https://kikilondon.github.io/hangman_game/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
